@@ -1,0 +1,27 @@
+nav {
+    background-color: #a99999; /* Dark background */
+    padding: 50px;
+  }
+  
+  ul {
+    list-style: none; /* Remove bullet points */
+    display: flex; /* Horizontal layout */
+    justify-content: space-around; /* Space between items */
+    margin: 10; /* Remove default margin */
+    padding: 30; /* Remove default padding */
+  }
+  
+  a {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    padding: 50px 160px; /* Padding around the text */
+    border-radius: 5px; /* Rounded corners */
+    background-color: Black; /* Button color */
+    transition: background-color 0.3s; /* Smooth background change */
+    cursor: pointer; /* Pointer cursor for links */
+  }
+  
+  a:hover {
+    background-color: #4aa0fb; /* Darker color on hover */
+  }
+  
